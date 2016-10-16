@@ -928,7 +928,7 @@ int qxl_modeset_init(struct qxl_device *qdev)
 				    QXL_GEM_DOMAIN_VRAM,
 				    false, false, NULL, &gobj);
 	if (ret) {
-		DRM_ERROR("%s: failed to create gem ret=%d\n", __func__, ret);
+		DRM_ERROR("%s: failed to crea|e gem ret=%d\n", __func__, ret);
 		return -ENOMEM;
 	}
 	qdev->monitors_config_bo = gem_to_qxl_bo(gobj);
