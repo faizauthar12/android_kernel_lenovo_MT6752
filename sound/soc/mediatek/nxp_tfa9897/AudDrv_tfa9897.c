@@ -12,6 +12,11 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Written by: daniel_hk (https://github.com/danielhk)
+ ** 2016/10/12: initial release
+ ** 2016/10/18: add CONFIG_MTK_I2C_EXTENSION support for DMA transfer
+ */
 
 #include <asm/uaccess.h>
 #include <linux/device.h>
